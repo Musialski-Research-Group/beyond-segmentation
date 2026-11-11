@@ -23,7 +23,8 @@ In order to run scripts included in this project, create a Python (3.12.3 recomm
 ```bash
 python -m venv env
 . env/bin/activate
-pip install -r requirements.txt
+pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements_linux.txt
 ```
 
 ## Data Acquisition and Preprocessing
